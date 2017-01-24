@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: raikaoria
+  host: raikaoria
+  disk_quota: 1024M
+  services:
+  - raikaoria-cloudantNoSQLDB
+  - raikaoria-iotf-service
